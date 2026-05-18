@@ -1,1 +1,1 @@
-Not deployed. Local app runs at http://localhost:3000
+Not deployed. Local app runs at https://ajaia-docs-lite-czuq.onrender.com
