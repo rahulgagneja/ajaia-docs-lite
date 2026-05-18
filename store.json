@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": "ava",
+      "name": "Ava Product",
+      "email": "ava@ajaia.local"
+    },
+    {
+      "id": "ben",
+      "name": "Ben Design",
+      "email": "ben@ajaia.local"
+    },
+    {
+      "id": "cy",
+      "name": "Cy Engineering",
+      "email": "cy@ajaia.local"
+    }
+  ],
+  "documents": [
+    {
+      "id": "welcome",
+      "title": "Launch plan draft",
+      "ownerId": "ava",
+      "content": "<h1>Launch plan draft</h1><p>This seeded document shows rich text persistence, sharing, and editing.</p><ul><li>Rename the document</li><li>Share it with Ben or Cy</li><li>Upload a .txt or .md file to create another draft</li></ul>",
+      "createdAt": "2026-05-18T19:08:03.511Z",
+      "updatedAt": "2026-05-18T19:08:03.512Z"
+    },
+    {
+      "id": "6304fb92-5adc-49cc-bddf-a049df6e8987",
+      "ownerId": "ava",
+      "title": "Untitled document",
+      "content": "<h1>Untitled document</h1><p>Start writing here.</p>",
+      "createdAt": "2026-05-18T19:17:04.832Z",
+      "updatedAt": "2026-05-18T19:17:04.835Z"
+    },
+    {
+      "id": "02037855-d32a-46be-8ab5-986094f249fa",
+      "ownerId": "ava",
+      "title": "Untitled document",
+      "content": "<h1>Untitled document</h1><p>Start writing here.</p>",
+      "createdAt": "2026-05-18T19:17:06.965Z",
+      "updatedAt": "2026-05-18T19:17:06.965Z"
+    },
+    {
+      "id": "191f209e-45d6-4a5f-85bd-71647e0dfbf1",
+      "ownerId": "ava",
+      "title": "Untitled document",
+      "content": "<h1>Untitled document</h1><p>Start writing here.</p>",
+      "createdAt": "2026-05-18T19:33:46.430Z",
+      "updatedAt": "2026-05-18T19:34:41.749Z"
+    }
+  ],
+  "shares": [
+    {
+      "documentId": "welcome",
+      "userId": "ben",
+      "role": "editor",
+      "createdAt": "2026-05-18T19:08:03.512Z"
+    },
+    {
+      "documentId": "191f209e-45d6-4a5f-85bd-71647e0dfbf1",
+      "userId": "ben",
+      "role": "editor",
+      "createdAt": "2026-05-18T19:34:38.402Z"
+    },
+    {
+      "documentId": "191f209e-45d6-4a5f-85bd-71647e0dfbf1",
+      "userId": "cy",
+      "role": "editor",
+      "createdAt": "2026-05-18T19:34:40.396Z"
+    }
+  ]
+}
